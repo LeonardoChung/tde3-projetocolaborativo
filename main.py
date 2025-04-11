@@ -64,7 +64,7 @@ print(f"\nÉ eurealiano? {resultado}\n")
 
 node = 'jons@amerexenergy.com'
 distance = 1
-print(f"\nLista de vértices que estão localizados de uma distância {distance} até o vértice {node}: \n{dijkstra_distancia(grafo, node, distance)}\n")
+print(f"\nLista de vértices que estão localizados até uma distância {distance} do vértice {node}: \n{dijkstra_distancia(grafo, node, distance)}\n")
 
 # PART 5
 
